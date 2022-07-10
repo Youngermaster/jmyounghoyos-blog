@@ -77,19 +77,19 @@ const config = {
             items: [
               {
                 label: 'Hack The Box',
-                to: '/docs/ctf/hack-the-box/intro',
+                to: 'docs/category/hack-the-box',
               },
               {
                 label: 'Vulnhub',
-                to: '/docs/ctf/vulnhub/intro',
+                to: 'docs/category/vulnhub',
               },
               {
                 label: 'Try Hack Me - coming soon...',
-                to: '/',
+                to: 'docs/category/try-hack-me',
               },
               {
                 label: 'Competitive Programming - coming soon...',
-                to: '/',
+                to: 'docs/category/programming',
               },
             ],
           },
