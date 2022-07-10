@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Youngermaster', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'jmyounghoyos-blog', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -48,6 +48,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: 'author',
+          content: 'Juan Manuel Young Hoyos'
+        },
+        {
+          name: 'description',
+          content: 'This is the site of Juan Manuel Young Hoyos, where you can find more of his work, such as CTFs, pentesting, IoT development and Competitive Programming.'
+        },
+        {
+          name: 'keywords',
+          content: 'Juan Manuel Young Hoyos, Hacking, CTF, Hack The Box, Competitive Programming, Juan Manuel Young'
+        }
+      ],
       navbar: {
         title: 'Juan Manuel Young Hoyos',
         logo: {
@@ -77,19 +91,19 @@ const config = {
             items: [
               {
                 label: 'Hack The Box',
-                to: '/docs/ctf/hack-the-box/intro',
+                to: 'docs/category/hack-the-box',
               },
               {
                 label: 'Vulnhub',
-                to: '/docs/ctf/vulnhub/intro',
+                to: 'docs/category/vulnhub',
               },
               {
                 label: 'Try Hack Me - coming soon...',
-                to: '/',
+                to: 'docs/category/try-hack-me',
               },
               {
                 label: 'Competitive Programming - coming soon...',
-                to: '/',
+                to: 'docs/category/programming',
               },
             ],
           },

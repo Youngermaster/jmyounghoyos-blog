@@ -4,38 +4,38 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Pentesting - CTFs',
+    Svg: require('@site/static/img/pentesting.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I'll be posting about how to Solve <b>Hacking Challenges</b> and <b>Machines</b> from
+        platforms like Hack The Box, Vulnhub, Try Hack Me etc.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Competitive Programming',
+    Svg: require('@site/static/img/problem_solving.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I'll be also posting about how to Solve <b>Competitive Programming Challenges</b> from
+        platforms like Leetcode, Codeforces, Hacker Rank etc.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'IoT Development',
+    Svg: require('@site/static/img/iot_development.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        And last but not least, later on I'll be also posting blog articles of <b>IOT Tutorials</b>
+        and some <b>Best practices</b>.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
