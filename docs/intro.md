@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # What is this section for?
 
-Well this section is to store my tutorials on **how to Solve Problems** or **Challenges** of different areas, however the tutorials will be mainly focused about ***Hacking*** and ***Programming***.
+Well this section is to store my tutorials on **how to Solve Problems** and **Challenges** of different areas, however the tutorials will be mainly focused about ***Hacking*** and ***Programming***.
 
 ## CTFs
 

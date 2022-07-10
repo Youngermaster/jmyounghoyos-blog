@@ -1,6 +1,6 @@
 # Juan Manuel Young Hoyos's Blog
 
-This project is meant to store my tutorials on **how to Solve Problems** or **Challenges** on areas mainly focused about ***Hacking*** and ***Programming***.
+This project is meant to store my tutorials on **how to Solve Problems** and **Challenges** on areas mainly focused about ***Hacking*** and ***Programming***.
 
 ## Acknowledgement
 
@@ -35,3 +35,4 @@ This command generates static content into the `build` directory and can be serv
   - [ ] `ES`.
   - [ ] `PT`.
   - [ ] `ZH`.
+- [ ] Add my first blog post about API Security Testing with Postman And OWASP ZAP.
