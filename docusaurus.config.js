@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Juan Manuel Young Hoyos',
+  tagline: 'Always working to change the world',
+  url: 'https://blog.jmyounghoyos.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'Youngermaster', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -34,17 +34,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,21 +49,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Juan Manuel Young Hoyos',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Juan Manuel Young Hoyos Logo',
+          src: 'img/avatar.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Youngermaster',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,46 +73,76 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tutorials',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Hack The Box',
+                to: '/docs/ctf/hack-the-box/intro',
+              },
+              {
+                label: 'Vulnhub',
+                to: '/docs/ctf/vulnhub/intro',
+              },
+              {
+                label: 'Try Hack Me - coming soon...',
+                to: '/',
+              },
+              {
+                label: 'Competitive Programming - coming soon...',
+                to: '/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Tech',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Hack The Box',
+                href: 'https://app.hackthebox.com/profile/643960',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Youngermaster',
+              },
+              {
+                label: 'GitLab',
+                href: 'https://gitlab.com/Youngermaster',
+              },
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/users/9752901/youngermaster',
+              },
+
+              {
+                label: 'WeChall',
+                href: 'https://www.wechall.net/profile/Youngermaster',
               },
             ],
           },
+          {
+            title: 'Socials',
+            items: [
+              {
+                label: 'LinkedIn'
+                , href: 'https://www.linkedin.com/in/juan-manuel-young-hoyos/'
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/jmyounghoyos',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/jmyounghoyos',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discords.com/bio/p/youngermaster',
+              },
+
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Juan Manuel Young Hoyo's blog built using Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
