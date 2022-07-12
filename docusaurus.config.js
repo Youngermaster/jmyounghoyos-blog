@@ -60,6 +60,19 @@ const config = {
         {
           name: 'keywords',
           content: 'Juan Manuel Young Hoyos, Hacking, CTF, Hack The Box, Competitive Programming, Juan Manuel Young'
+        },
+        {
+          property: 'og:image',
+          content: 'https://blog.jmyounghoyos.com/img/thumbnail.png',
+          itemprop: 'image',
+        },
+        {
+          property: 'og:image:width',
+          content: '1200'
+        },
+        {
+          property: 'og:image:height',
+          content: '720'
         }
       ],
       navbar: {
